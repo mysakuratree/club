@@ -1,29 +1,34 @@
 body {
     margin: 0px;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.5);
     background-image: url(../image/index.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
+    
 }
 .navigator ul {
     margin: 0px;
     padding: 0px;
-    background-color: rgba(255, 129, 188, 0.8);
+    background-color: rgba(242, 242, 242, 0.6);
+    border-bottom: 1px solid rgba(201, 201, 201, 0.5);
     width: 100%;
     height: 50px;
     position: fixed;
     top: 0;
 }
-.navigator li {
+.navigator .navigate {
     list-style-type: none;
     float: left;
 }
+.navigator .log {
+    list-style-type: none;
+    float: right;
+}
 .navigator a {
-    border-right: 1px solid rgb(250, 249, 249);
     display: block;
-    background-color: rgba(255, 129, 188, 0.8);
     width: 140px;
     height: 50px;
     line-height: 45px;
@@ -33,11 +38,11 @@ body {
     color: rgb(42, 41, 41);
 }
 .navigator li:hover {
-    background-color: rgb(250, 11, 11);
+    background-color: rgb(140, 140, 140);
     transition: 0.5s;
 }
 .content {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .content .robot{
     width: 300px;
@@ -158,7 +163,7 @@ body {
     width: 800px;
     line-height: 60px;
     padding: auto;
-    color: rgb(255, 129, 188);
+    color: rgb(245, 123, 180);
     box-shadow:10px 5px 5px rgba(34, 25, 25, 0.2);
     height: 300px;
 }
