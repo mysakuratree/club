@@ -1,0 +1,178 @@
+body {
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url(../image/index.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+.navigator ul {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(255, 129, 188, 0.8);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+}
+.navigator li {
+    list-style-type: none;
+    float: left;
+}
+.navigator a {
+    border-right: 1px solid rgb(250, 249, 249);
+    display: block;
+    background-color: rgba(255, 129, 188, 0.8);
+    width: 140px;
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(42, 41, 41);
+}
+.navigator li:hover {
+    background-color: rgb(250, 11, 11);
+    transition: 0.5s;
+}
+.content {
+    margin-top: 80px;
+}
+.content .robot{
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+    float: right;
+}
+.content h1 {
+    text-align: center;
+    line-height: 120px;
+    height: 120px;
+    background: linear-gradient(-60deg, #673ab7, #00bcd4);
+    font-size: 40px;
+}
+.content h2 {
+    text-align: center;
+    font-size: 32px;
+}
+.content .passage_1 p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content .passage_1 h3 {
+    text-align: center;
+    font-size: 24px;
+}
+.content .passage_1 .introduce {
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 10px 5px 5px rgba(34, 25, 25, 0.2);
+    background-color: rgb(255, 129, 188);
+    padding: 8px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: rgb(232, 232, 232);
+    font-size: 28px;
+    text-align: center;
+    height: 180px;
+    line-height: 60px;
+}
+.content .passage_1 .prize {
+    font-weight: bold;
+    margin-left: 80px;
+    width: 700px;
+    padding: auto;
+    color: rgb(56, 154, 215);
+    box-shadow:10px 5px 5px rgba(34, 25, 25, 0.2);
+    height: 300px;
+}
+.content .passage_1 .target {
+    list-style-type: none;
+    float: left;
+    width: 50%;
+    height: 200px;
+    padding: 0px;
+    text-align: center;
+    background:linear-gradient(60deg, rgb(0, 145, 255), rgb(102, 208, 240));
+}
+.content .passage_1 .target_head {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.content .passage_1 .target_li {
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.content .passage_1 .train {
+    list-style-type: none;
+    float: left;
+    width: 50%;
+    height: 200px;
+    padding: 0px;
+    text-align: center;
+    background:linear-gradient(30deg, rgb(255, 114, 180), rgb(255, 193, 203));
+}
+.content .passage_1 .train_head {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.content .passage_1 .train_li {
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.content .table {
+    margin: 0px;
+    padding: 0;
+    background: linear-gradient(30deg, rgb(44, 186, 252), rgb(192, 218, 255) 30%, rgb(252, 164, 177));
+    width: 100%;
+    height: 180px;
+}
+.content .th {
+    font-size: 24px;
+    text-align: center;
+    width: 33.3%;
+    padding: 0px;
+}
+.content .td {
+    font-size: 20px;
+    text-align: center;
+    width: 33.3%;
+    padding: 0px;
+}
+.content .aelos {
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+}
+.content .passage_2 ul {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 80px;
+    width: 800px;
+    line-height: 60px;
+    padding: auto;
+    color: rgb(255, 129, 188);
+    box-shadow:10px 5px 5px rgba(34, 25, 25, 0.2);
+    height: 300px;
+}
+.content .contact table {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background:linear-gradient(60deg, rgb(0, 145, 255), rgb(102, 208, 240));
+}
+.content .contact th {
+    font-size: 24px;
+    font-weight: bold;
+}
+.content .contact td {
+    font-size: 18px;
+    font-weight: bold;
+}
