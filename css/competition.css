@@ -1,12 +1,14 @@
+/* 全局 */
 body {
     margin: 0px;
     background-color: rgba(255, 255, 255, 0.5);
-    background-image: url(../image/index.jpg);
+    background-image: url(../image/index.jfif);
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
+/* 导航栏 */
 .navigator ul {
     margin: 0px;
     padding: 0px;
@@ -39,9 +41,11 @@ body {
     background-color: rgb(140, 140, 140);
     transition: 0.5s;
 }
+/* 顶部图片 */
 .cover img {
     width: 100%;
 }
+/* 内容 */
 .content {
     margin-top: 80px;
 }
@@ -52,39 +56,48 @@ body {
     line-height: 120px;
     font-size: 40px;
 }
-.content .introduce {
-    border: 2px solid rgb(239, 239, 239);
-    border-radius: 16px;
-    box-shadow: 10px 5px 5px rgba(34, 25, 25, 0.2);
-    background-color: rgb(255, 129, 188);
-    padding: 8px;
-    width: 640px;
-    height: 360px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 40px;
-    margin-right: 10px;
-    color: rgb(232, 232, 232);
-    font-size: 26px;
-    font-weight: bold;
-    line-height: 60px;
-}
 .content h2 {
     margin-top: 20px;
     font-size: 32px;
     text-align: center;
 }
-.content h3 {
+/* CRAIC赛道 */
+.content .craic h3 {
     font-size: 24px;
     text-align: center;
 }
-.content ul {
+.content .craic .introduce {
+    border: 2px solid rgb(239, 239, 239);
+    border-radius: 16px;
+    box-shadow: 10px 5px 5px rgba(34, 25, 25, 0.2);
+    padding: 8px;
+    width: 760px;
+    height: 360px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    color: rgb(245, 123, 180);
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 72px;
+}
+.content .craic video {
+    width: 640px;
+    height: 360px;
+    float: right;
+    margin-right: 40px;
+    padding: 0;
+    border: 10px solid rgba(239, 239, 239, 0.5);
+    border-radius: 16px;
+    box-shadow: 10px 5px 5px rgba(34, 25, 25, 0.2);
+}
+.content .craic ul {
     list-style-type: none;
     width: 100%;
     margin: 0px;
     padding: 0px;
 }
-.content .type {
+.content .craic .type {
     float: left;
     width: 33.3%;
     height: 160px;
@@ -94,7 +107,7 @@ body {
     font-size: 32px;
     background:linear-gradient(60deg, rgb(0, 145, 255), rgb(102, 208, 240));
 }
-.content .stage {
+.content .craic .stage {
     float: left;
     width: 33.3%;
     height: 160px;
@@ -104,13 +117,70 @@ body {
     font-size: 32px;
     background:linear-gradient(30deg, rgb(255, 114, 180), rgb(255, 193, 203));
 }
-.content video {
-    width: 640px;
-    height: 360px;
+/* BOTEC赛道 */
+.content .botec .botec_cover {
+    width: 100%;
+    height: 600px;
+}
+.content .botec h3 {
+    font-size: 24px;
+    text-align: center;
+}
+.content .botec video {
+    width: 700px;
+    height: 400px;
     float: right;
-    margin-left: 10px;
     margin-right: 40px;
     padding: 0;
-    border: 8px rgb(56, 154, 215) solid;
+    border: 10px solid rgba(239, 239, 239, 0.5);
     border-radius: 16px;
+    box-shadow: 10px 5px 5px rgba(34, 25, 25, 0.2);
+}
+.content .botec .introduce {
+    border: 2px solid rgb(239, 239, 239);
+    border-radius: 16px;
+    box-shadow: 10px 5px 5px rgba(34, 25, 25, 0.2);
+    padding: 8px;
+    width: 700px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    color: rgb(245, 123, 180);
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 80px;
+}
+.content .botec ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.content .botec .type {
+    float: left;
+    width: 33.3%;
+    height: 160px;
+    text-align: center;
+    line-height: 160px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    background:linear-gradient(60deg, rgb(0, 145, 255), rgb(102, 208, 240));
+}
+.content .botec .details {
+    display: block;
+    text-decoration: none;
+    font-size: 32px;
+    color: rgb(232, 232, 232);
+    background:linear-gradient(30deg, rgb(255, 114, 180), rgb(255, 193, 203));
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content .botec .details:hover {
+    background: rgb(255, 117, 140);
+    transition: 0.8s;
 }

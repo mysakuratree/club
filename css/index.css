@@ -1,14 +1,16 @@
+/* 全局 */
 body {
     margin: 0px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.5);
-    background-image: url(../image/index.jpg);
+    background-image: url(../image/index.jfif);
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     
 }
+/* 导航栏 */
 .navigator ul {
     margin: 0px;
     padding: 0px;
@@ -41,15 +43,18 @@ body {
     background-color: rgb(140, 140, 140);
     transition: 0.5s;
 }
+/* 内容全局 */
 .content {
     margin-top: 50px;
 }
+/* 机器人照片 */
 .content .robot{
     width: 300px;
     height: 300px;
     margin-right: 40px;
     float: right;
 }
+/* 标题 */
 .content h1 {
     text-align: center;
     line-height: 120px;
@@ -57,6 +62,7 @@ body {
     background: linear-gradient(-60deg, #673ab7, #00bcd4);
     font-size: 40px;
 }
+/* 第一段正文 */
 .content h2 {
     text-align: center;
     font-size: 32px;
@@ -131,6 +137,7 @@ body {
     font-weight: bold;
     font-size: 24px;
 }
+/* 最新活动 */
 .content .table {
     margin: 0px;
     padding: 0;
@@ -150,12 +157,14 @@ body {
     width: 33.3%;
     padding: 0px;
 }
+/* aelos照片 */
 .content .aelos {
     float: right;
     width: 300px;
     height: 300px;
     margin-right: 40px;
 }
+/* 第二段正文 */
 .content .passage_2 ul {
     font-weight: bold;
     font-size: 20px;
@@ -167,9 +176,10 @@ body {
     box-shadow:10px 5px 5px rgba(34, 25, 25, 0.2);
     height: 300px;
 }
+/* 联系方式 */
 .content .contact table {
     width: 100%;
-    height: 80px;
+    height: 100px;
     text-align: center;
     background:linear-gradient(60deg, rgb(0, 145, 255), rgb(102, 208, 240));
 }

@@ -1,3 +1,4 @@
+/* 全局 */
 body {
     margin: 0px;
     background-color: rgba(255, 255, 255, 0.5);
@@ -7,6 +8,7 @@ body {
     background-position: center;
     background-size: cover;
 }
+/* 导航栏 */
 .navigator ul {
     margin: 0px;
     padding: 0px;
@@ -39,12 +41,14 @@ body {
     background-color: rgb(140, 140, 140);
     transition: 0.5s;
 }
+/* 内容 */
 .content {
     margin-top: 60px;
     position: relative;
     margin-left: 50%;
     left: -250px;
 }
+/* 帖子 */
 .content .cnt {
     text-align: center;
     line-height: 240px;
